@@ -4,7 +4,7 @@
 
 /* embla */
 .embla {
-  position: absolute;
+  position: relative;
   background-color: #f7f7f7;
   /* padding: 20px; */
   /* max-width: 670px; */
@@ -39,7 +39,9 @@
 .embla__slide {
   position: relative;
   min-width: 100%;
+  /* height: auto; */
   padding-left: 10px;
+  background-color: white;
 }
 
 .embla__slide__inner {
@@ -67,11 +69,11 @@
   touch-action: manipulation;
   position: absolute;
   z-index: 1;
-  top: 35%;
+  top: 40%;
   /* transform: translateY(-50%); */
   border: 0;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   justify-content: center;
   align-items: center;
   fill: black;

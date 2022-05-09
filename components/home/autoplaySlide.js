@@ -42,22 +42,22 @@ const AutoplaySlide = ({ slides, options = { loop: false } }) => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="embla w-full md:pt-10 mt-7 z-10">
+    <div className="embla w-full pt-10 mt-5 md:pt-10 md:mt-7">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           <div className="embla__slide">
             <div className="embla__slide__inner h-4/6">
-              <img className="w-full" src="/static/images/1.jpg" />
+              <img className="w-full" src="/static/images/slide1.png" />
             </div>
           </div>
           <div className="embla__slide">
             <div className="embla__slide__inner h-4/6">
-              <img className="w-full" src="/static/images/2.jpg" />
+              <img className="w-full" src="/static/images/slide2.png" />
             </div>
           </div>
           <div className="embla__slide">
             <div className="embla__slide__inner h-4/6">
-              <img className="w-full" src="/static/images/3.jpg" />
+              <img className="w-full" src="/static/images/slide3.png" />
             </div>
           </div>
         </div>
